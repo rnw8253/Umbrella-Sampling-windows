@@ -1,0 +1,8 @@
+parm FHF2_solv.prmtop
+trajin windowYY.pdb
+trajout FHF2_GBAXX.rst restart
+strip :WAT
+strip :Cl-
+strip :Na+
+
+go
